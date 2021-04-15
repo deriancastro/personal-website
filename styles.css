@@ -15,7 +15,6 @@ body {
 }
 a {
   text-decoration: none;
-  border-bottom: 2px solid;
 }
 input,
 button,
@@ -43,4 +42,11 @@ textarea {
   display: grid;
   gap: 40px;
   place-items: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
