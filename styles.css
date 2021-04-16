@@ -4,7 +4,7 @@
 :root {
   --primary: hotpink;
   --black: #333;
-  --secondary: papayawhip;
+  --secondary: #e6dfd3;
 }
 body {
   color: var(--black);
@@ -22,9 +22,8 @@ textarea {
   font-size: inherit;
 }
 .page-header {
-  padding: 20px;
+  padding: 40px;
   background: var(--secondary);
-  margin-bottom: 40px;
 }
 .button {
   background: var(--black);
@@ -39,8 +38,7 @@ textarea {
 }
 
 .page-main {
-  display: grid;
-  gap: 40px;
+  display: block;
   place-items: center;
 }
 
@@ -49,4 +47,13 @@ textarea {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background: var(--secondary);
+}
+
+.border {
+  border: 1px solid black;
+}
+
+#contact {
+  background: var(--secondary);
 }
