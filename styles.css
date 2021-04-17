@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 :root {
-  --primary: hotpink;
   --black: #333;
   --secondary: #e6dfd3;
 }
@@ -13,16 +12,22 @@ body {
   line-height: 1.4;
   margin: 0;
 }
+
+main {
+  padding: 20px;
+}
+
 a {
   text-decoration: none;
 }
+
 input,
 button,
 textarea {
   font-size: inherit;
 }
 .page-header {
-  padding: 40px;
+  padding: 20px;
   background: var(--secondary);
 }
 .button {
@@ -32,26 +37,17 @@ textarea {
   padding: 8px;
   border-radius: 4px;
 }
+
 .image-fluid {
   width: 100%;
   height: auto;
 }
 
-.page-main {
-  display: block;
-  place-items: center;
-}
-
-.logos {
+.logos-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: var(--secondary);
-}
-
-.border {
-  border: 1px solid black;
 }
 
 #contact {
