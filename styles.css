@@ -3,22 +3,40 @@
 }
 :root {
   --black: #333;
-  --secondary: #e6dfd3;
+  --secondary: #bdc9c2;
 }
 body {
   color: var(--black);
   font-family: sans-serif;
-  font-size: 112.5%;
+  font-size: 120, 5%;
   line-height: 1.4;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+figure {
+  padding: 0;
   margin: 0;
 }
 
 main {
-  padding: 20px;
+  margin: 10px 20px 0 20px;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+figcaption {
+  text-align: center;
+}
+
+section {
+  margin: 50px 0;
 }
 
 input,
@@ -26,10 +44,13 @@ button,
 textarea {
   font-size: inherit;
 }
-.page-header {
-  padding: 20px;
+header {
+  padding: 30px;
   background: var(--secondary);
+  display: grid;
+  text-align: center;
 }
+
 .button {
   background: var(--black);
   color: white;
@@ -45,11 +66,36 @@ textarea {
 
 .logos-links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#contact {
+.bio {
   background: var(--secondary);
+  margin: 10px -20px;
+  padding: 10px 20px;
+}
+
+.contact {
+  padding: 30px;
+  background: var(--secondary);
+  display: grid;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.inter-skills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  width: 330px;
+  margin: 0 auto;
+}
+.inter-skills div {
+  display: grid;
+  text-align: center;
+}
+
+#mich-findet {
+  text-align: center;
 }
