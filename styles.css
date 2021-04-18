@@ -7,7 +7,7 @@
 }
 body {
   color: var(--black);
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 120, 5%;
   line-height: 1.4;
   margin: 0 auto;
