@@ -1,0 +1,15 @@
+.logos-links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.logos-links h3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.logos-links a {
+  text-align: center;
+}

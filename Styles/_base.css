@@ -1,10 +1,7 @@
 * {
   box-sizing: border-box;
 }
-:root {
-  --black: #333;
-  --secondary: #bdc9c2;
-}
+
 body {
   color: var(--black);
   font-family: 'Montserrat', sans-serif;
@@ -36,17 +33,11 @@ figcaption {
 }
 
 section {
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 input,
 button,
 textarea {
   font-size: inherit;
-}
-header {
-  padding: 30px;
-  background: var(--secondary);
-  display: grid;
-  text-align: center;
 }
