@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx htmlhint '**/*.html'"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/deriancastro/personal-website#readme",
   "devDependencies": {
-    "live-server": "1.2.1"
+    "htmlhint": "^0.14.2",
+    "live-server": "^1.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0"
   }
 }

@@ -4,7 +4,7 @@
   gap: 10px;
 }
 
-.logos-links h3 {
+.logos-links__heading {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
