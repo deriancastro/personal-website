@@ -1,0 +1,9 @@
+.inter-skills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.inter-skills__list {
+  text-align: center;
+  padding: 20px;
+}
